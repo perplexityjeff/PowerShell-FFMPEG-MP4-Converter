@@ -1,6 +1,5 @@
 $QualityOptions = 0..51
 $PresetOptions = "ultrafast","superfast", "veryfast", "faster", "fast", "medium", "slow", "slower", "veryslow"
-$IconLocation = "C:\IMDS_CameraViewer\icon.ico"
 
 $FFMPEGLocation = $PSScriptRoot + "\ffmpeg.exe"
 
@@ -12,7 +11,6 @@ $FFMPEG_MP4_Converter.Text = "FFMPEG MP4 Converter"
 $FFMPEG_MP4_Converter.FormBorderStyle = 'FixedSingle'
 $FFMPEG_MP4_Converter.MaximizeBox = $false
 $FFMPEG_MP4_Converter.MinimizeBox = $false
-$FFMPEG_MP4_Converter.Icon = [system.drawing.icon]::ExtractAssociatedIcon($IconLocation)
 $FFMPEG_MP4_Converter.TopMost = $true
 $FFMPEG_MP4_Converter.Width = 275
 $FFMPEG_MP4_Converter.Height = 308
